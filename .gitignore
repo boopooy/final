@@ -1,0 +1,6 @@
+/data/finance_data.json
+/data/finance_data.sqlite3
+/data/finance_data.sqlite3-shm
+/data/finance_data.sqlite3-wal
+__pycache__/
+*.py[cod]

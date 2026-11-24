@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Smart Consumption App",
+			"type": "shell",
+			"command": "PYTHONPATH=src .venv/bin/python -m streamlit run src/final/app.py --server.headless=true",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
